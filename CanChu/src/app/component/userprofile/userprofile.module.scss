@@ -1,0 +1,102 @@
+.border{
+    padding: 3% 10% 0% 10%;
+    background-color: #FFF;
+    width: 100%;
+    .profileContainer{
+        display: flex;
+        padding: 2% 5% 5% 0%;
+
+        .picContainer{
+            width: 180px;
+            height: 180px;
+            
+            .picFrame {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0);
+                    border-radius: 50%;
+                    transition: opacity 0.3s ease;
+                }
+                
+                &:hover::before {
+                    border: 3px solid #5458F7;
+                    background-color: rgba(0, 0, 0, 0.5);
+                }
+
+                &:hover #editProfile {
+                    text-align: center;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: #FFF;
+                    transition: opacity 0.3s ease;
+                    z-index: 1;
+                    cursor: pointer;
+
+                    
+                }
+            
+
+            }
+        }
+
+
+        .nameFriend{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            #userName{
+                margin: 20px;
+            }
+            #friendCount{
+                margin-left: 20px;
+            }
+        }
+    }
+
+    #userName{
+        color: #000;
+        font-family: Outfit;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60%; 
+    }
+    #friendCount{
+        color: #484848;
+        font-family: Outfit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    #underLine{
+        color: #C8C8C8;
+    }
+    #post{
+        display: inline-block;
+        color: #5458F7;
+        font-family: Outfit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 120% */
+        border-bottom: 2px solid #5458F7;
+        padding: 20px;
+        }
+}

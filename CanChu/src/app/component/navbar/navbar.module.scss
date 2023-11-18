@@ -1,0 +1,125 @@
+.border {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: white;
+
+  .canchu {
+    margin: 41px 20px 35px 170px;
+    color: #7763fb;
+    font-family: var(--font-pattaya);
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .search_bar {
+    margin-top: 27px;
+    display: flex;
+    width: 330px;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    background-color: #f0f2f5;
+    justify-content: flex-start;
+    align-items: center;
+
+    .search_pic {
+      margin-left: 20px;
+      margin-right: 8px;
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+
+    .searching {
+      font-family: Outfit;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 24px;
+      background-color: #f0f2f5;
+      width: 250px;
+      height: 2rem;
+    }
+  }
+  .scrollFriendList {
+    overflow: scroll;
+    height: 16rem;
+    .friendList {
+      position: relative;
+      z-index: 9999;
+      display: flex;
+      border-radius: 20px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background: #fff;
+      height: 4rem;
+      align-items: center;
+      width: 330px;
+
+      .picCircle {
+        z-index: 9999;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin: 0px 20px 0px 20px;
+      }
+      #nameFont {
+        color: #566470;
+        font-family: Outfit;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+      }
+    }
+  }
+  .profile_pic {
+    width: 36px;
+    height: 36px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 992px) {
+  .border {
+    .canchu {
+      margin: 41px 30px 35px 100px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .border {
+    .canchu {
+      margin: 41px 20px 35px 50px;
+    }
+    .search_bar {
+      width: 250px;
+      .searching {
+        width: 200px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .border {
+    .canchu {
+      margin: 41px 20px 35px 20px;
+    }
+    .search_bar {
+      width: 150px;
+      .search_pic {
+        margin-left: 10px;
+        margin-right: 4px;
+      }
+      .searching {
+        width: 100px;
+      }
+    }
+  }
+}

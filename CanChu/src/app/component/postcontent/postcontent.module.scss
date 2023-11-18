@@ -1,0 +1,52 @@
+.border {
+  border-radius: 10px;
+  border: 1px solid rgb(227, 225, 225);
+  margin-top: 30px;
+  background-color: White;
+  .userAndComment {
+    display: flex;
+    margin: 10px;
+
+    #userimage {
+      margin: 5px;
+      width: 75px;
+      height: 75px;
+    }
+    #userComment {
+      padding-top: 20px;
+      padding-left: 20px;
+      width: 90%;
+      border-radius: 10px;
+      border: 1px solid #d9d9d9;
+      background-color: #f0f2f5;
+      min-height: 100px;
+
+      color: #767676;
+      font-family: Outfit;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  #postComment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #5458f7;
+    width: 140px;
+    height: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+
+    color: #fff;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+

@@ -1,0 +1,86 @@
+.body{
+    max-width: 30vw;
+    .border{
+        border-radius: 10px;
+        border: 1px solid rgb(227, 225, 225);
+        margin-top: 30px;
+        width: 90% ;
+        background-color: White;
+
+    color: #000;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    .accepFriend {
+      display: flex;
+      align-items: center;
+      .accepFriendPic {
+        width: 30px;
+        height: 30px;
+        margin: 15px 15px 15px 20px;
+      }
+      .acceptAndRejectFriend {
+        margin-left: auto;
+        .acceptFriend {
+          margin: 5px;
+          padding: 5px 10px 5px 10px;
+          border-radius: 6px;
+          background: #5458f7;
+          color: #fff;
+          text-align: center;
+          font-family: Outfit;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+        }
+        .rejectFriend {
+          margin-right: 10px;
+          padding: 5px 10px 5px 10px;
+          border-radius: 6px;
+          background: #bfbfbf;
+          color: #fff;
+          text-align: center;
+          font-family: Outfit;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+        }
+      }
+    }
+    .friendList {
+      display: flex;
+      align-items: center;
+      .userimage {
+        width: 30px;
+        height: 30px;
+        margin: 15px 15px 15px 20px;
+      }
+    }
+    .myFriend {
+      color: #767676;
+    }
+    .shortLine {
+      width: 90%;
+      margin: 0% 5% 0% 5%;
+    }
+    .serchAll {
+      font-weight: 300;
+      text-decoration-line: underline;
+    }
+  }
+  .copyRight {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #525252;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 70%;
+  }
+}

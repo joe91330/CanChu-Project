@@ -1,0 +1,49 @@
+.wholePage {
+  background-color: #f3f3f3;
+  min-height: 1000px;
+  .Navbar {
+    position: fixed;
+    z-index: 9999;
+  }
+
+  .sepSide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    .posts {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .wholePage {
+    .sepSide {
+      .posts {
+        width: 60%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .wholePage {
+    .sepSide {
+      .posts {
+        width: 60%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .wholePage {
+    .sepSide {
+      flex-wrap: wrap;
+      align-items: flex-start;
+      .posts {
+        width: 80%;
+      }
+
+    }
+  }
+}
+

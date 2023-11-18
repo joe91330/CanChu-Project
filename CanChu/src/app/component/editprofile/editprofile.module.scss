@@ -1,0 +1,112 @@
+.body {
+  max-width: 30vw;
+  .border {
+    border-radius: 10px;
+    border: 1px solid rgb(227, 225, 225);
+    margin-top: 30px;
+    width: 90%;
+    background-color: White;
+
+    #personalprofile_f {
+      display: flex;
+      justify-content: center;
+      margin-top: 5%;
+      #personalprofile {
+        padding: 0.5rem;
+        width: 90%;
+        border-radius: 6px;
+        background: #5458f7;
+
+        color: #fff;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5rem;
+      }
+    }
+    .introTags_f {
+      margin: 5%;
+      .introAndHabbit {
+        color: #525252;
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+      }
+      .introAndTags {
+        min-height: 35px;
+        color: #5c5c5c;
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+      }
+      .inputBar {
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #bfbfbf;
+        background: #f0f2f5;
+        min-height: 4rem;
+        width: 100%;
+      }
+    }
+    .confirmAndCancelButton {
+      display: flex;
+      justify-content: center;
+      #confirmButton {
+        border-radius: 6px;
+        background: #5458f7;
+        color: #fff;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        height: 2rem;
+        width: 5rem;
+        margin: 10px;
+      }
+      #cancelButton {
+        border-radius: 6px;
+        background: #d3d3d3;
+        color: #fff;
+        text-align: center;
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        height: 2rem;
+        width: 5rem;
+        margin: 10px;
+      }
+    }
+  }
+  .copyRight {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #525252;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .body {
+    max-width: 400px;
+    min-width: 200px;
+    max-width: 80vw;
+    .border {
+      width: 100%;
+    }
+  }
+}

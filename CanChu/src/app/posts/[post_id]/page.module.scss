@@ -1,0 +1,33 @@
+.wholePage {
+  display: flex;
+  justify-content: center;
+  .firstPost {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  .wholePage {
+    .firstPost {
+      width: 60%;
+
+
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .wholePage {
+    .firstPost {
+      width: 70%;
+
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .wholePage {
+    .firstPost {
+      width: 90%;
+
+    }
+  }
+}

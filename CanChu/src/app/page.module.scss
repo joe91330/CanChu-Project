@@ -1,0 +1,47 @@
+.wholePage{
+    background-color: #F3F3F3;
+    min-height: 1000px;
+
+
+    .sepSide{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        .posts {
+          width: 40%;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .wholePage {
+      .sepSide {
+        .posts {
+          width: 50%;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wholePage {
+      .sepSide {
+        .posts {
+          width: 60%;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .wholePage {
+      .sepSide {
+        align-items: center; 
+        .posts {
+          width: 80%;
+        }
+        .friendlist{
+            display: none;
+        }
+      }
+    }
+  }
+  
